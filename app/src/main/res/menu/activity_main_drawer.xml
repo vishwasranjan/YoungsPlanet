@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_store"
+            android:title="Store"
+            android:icon="@drawable/story_icon"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_toys"
+            android:title="Toys"
+            android:icon="@drawable/toys_icon"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_books"
+            android:title="Books"
+            android:icon="@drawable/books_icon"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_clothes"
+            android:title="Clothes"
+            android:icon="@drawable/clothes_icon"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_accounts"
+            android:title="Accounts"
+            android:icon="@drawable/accounts_icon"
+            android:iconTint="@color/white"/>
+    </group >
+    <item
+        android:title="Communicate">
+        <menu>
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/contact_us_icon"
+            android:iconTint="@color/white"/>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share_icon"
+                android:iconTint="@color/white"/>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/logout_icon"
+                android:iconTint="@color/white"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>
