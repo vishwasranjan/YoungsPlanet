@@ -8,8 +8,14 @@
     tools:context=".HomeActivity"
     tools:openDrawer="start"
     android:background="@color/white">
+
+
+
     <include
-        layout="@layout/home_screen_layout"/>
+        layout="@layout/home_screen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view"
